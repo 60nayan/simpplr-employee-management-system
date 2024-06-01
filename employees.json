@@ -1,19 +1,11 @@
 [
   {
-    "fullName": "Nayan Gupta",
-    "age": "23",
-    "dob": "1983-04-23",
-    "salary": "46310",
-    "department": "IT",
-    "id": 99
-  },
-  {
-    "fullName": "Lishu Gupta",
-    "age": "63",
-    "dob": "1985-05-05",
-    "salary": "32638",
-    "department": "IT",
-    "id": 27
+    "fullName": "Daksh Pahwa",
+    "age": "25",
+    "dob": "1985-06-08",
+    "salary": "51594",
+    "department": "Admin",
+    "id": 11
   },
   {
     "fullName": "Amit Gupta",
@@ -24,20 +16,12 @@
     "id": 20
   },
   {
-    "fullName": "Mohit Banke",
+    "fullName": "Lishu Gupta",
     "age": "63",
-    "dob": "2006-05-12",
-    "salary": "129377",
-    "department": "Admin",
-    "id": 83
-  },
-  {
-    "fullName": "Bhavika Dwivedi",
-    "age": "41",
-    "dob": "1962-10-19",
-    "salary": "96121",
+    "dob": "1985-05-05",
+    "salary": "32638",
     "department": "IT",
-    "id": 55
+    "id": 27
   },
   {
     "fullName": "Lokesh Malviya",
@@ -56,12 +40,12 @@
     "id": 42
   },
   {
-    "fullName": "Daksh Pahwa",
-    "age": "25",
-    "dob": "1985-06-08",
-    "salary": "51594",
-    "department": "Admin",
-    "id": 11
+    "fullName": "Bhavika Dwivedi",
+    "age": "41",
+    "dob": "1962-10-19",
+    "salary": "96121",
+    "department": "IT",
+    "id": 55
   },
   {
     "fullName": "Priyansh",
@@ -70,5 +54,29 @@
     "salary": "83453",
     "department": "IT",
     "id": 73
+  },
+  {
+    "fullName": "Mohit Banke",
+    "age": "63",
+    "dob": "2006-05-12",
+    "salary": "129377",
+    "department": "Admin",
+    "id": 83
+  },
+  {
+    "fullName": "Nayan Gupta",
+    "age": "23",
+    "dob": "1983-04-23",
+    "salary": "46310",
+    "department": "IT",
+    "id": 99
+  },
+  {
+    "fullName": "tewt",
+    "age": "12",
+    "dob": "1111-11-11",
+    "salary": "1212",
+    "department": "sdf",
+    "id": 100
   }
 ]

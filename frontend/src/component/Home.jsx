@@ -43,7 +43,8 @@ const Home = () => {
         alert(res.data.error);
         return;
       }
-      setnewEmp({ fullName: "", age: 0, salary: 0, department: "" });
+      // yaha par changes kiye hai maine
+      setnewEmp({ fullName: "", age: 0, dob: "", salary: 0, department: "" });
       setAllEmployees(res.data.data);
       alert("Data added Successfully");
     } catch (error) {

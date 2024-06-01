@@ -28,7 +28,8 @@ const Card = ({employee,setAllEmployees}) => {
       }
       setShowModal(false);
       setAllEmployees(data);
-      setNewEmp({"fullName": "","age": null,"salary": null,"department": ""});
+      // yaha par bhi
+      setNewEmp({"fullName": "","age": null,"dob":"","salary": null,"department": ""});
       
       alert(" employee updated successfully ");
     }
@@ -55,14 +56,11 @@ const Card = ({employee,setAllEmployees}) => {
       <div className="card-container">
         <h3>{employee?.fullName}</h3> 
           <p>Age: {employee?.age}</p>
-          <p>Date of Birth: {employee.dob}</p>
+          {/* yaha par ? yeh nahi tha */}
+          <p>Date of Birth: {employee?.dob}</p>
          <p>Salary: {employee?.salary}</p>
          <p>Department: {employee?.department}</p>
-         {/* <h3>Name:Nayan Gupta</h3>
-         <p>Age:22</p>
-         <p>Name:Nayan Gupta</p>
-         <p>Salary:450000</p>
-         <p>Department:IT</p> */}
+        
          <div className="card-button">
             <button className='update-button' onClick={()=>setShowModal(true)}>update</button>
             <button className='delete-button' onClick={()=>deleteEmployee(employee.id)}>Delete</button>
@@ -71,10 +69,12 @@ const Card = ({employee,setAllEmployees}) => {
           showModal && <div className="modal-card">
            <h3>Update Employee Form</h3>
             <form className="add-form-card" onSubmit={updateEmployee} >
-              <input  type="text" name="fullName" value={newEmp?.fullName} onChange={formInput}  placeholder="Enter employee update name" className="add-input-card"/>
-              <input  type="number" name="age" value={newEmp?.age} onChange={formInput}  placeholder="Enter employee update age" className="add-input-card"/>
-              <input  type="number" name="salary" value={newEmp?.salary} onChange={formInput}  placeholder="Enter employee update salary" className="add-input-card"/>
-              <input  type="text" name="department" value={newEmp?.department} onChange={formInput}  placeholder="Enter employee update dapartment" className="add-input-card"/>
+              <input  type="text" name="fullName" value={newEmp?.fullName} onChange={formInput}  placeholder="Enter updated Employee's name" className="add-input-card"/>
+              <input  type="number" name="age" value={newEmp?.age} onChange={formInput}  placeholder="Enter updated Employee's age" className="add-input-card"/>
+              {/* yaha par changes karra hu */}
+              <input type="date" name="Date of Birth" value={newEmp?.dob} onChange={formInput} placeholder='Enter Updated DOB'></input>
+              <input  type="number" name="salary" value={newEmp?.salary} onChange={formInput}  placeholder="Enter updated Employee's salary" className="add-input-card"/>
+              <input  type="text" name="department" value={newEmp?.department} onChange={formInput}  placeholder="Enter updated Employee's dapartment" className="add-input-card"/>
               <button type="submit" className="form-button">Update Employee</button>
             </form>
             <button className="hide-form-button" onClick={()=>setShowModal(false)}>Hide Form</button>
