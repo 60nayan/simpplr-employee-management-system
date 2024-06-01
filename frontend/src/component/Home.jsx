@@ -43,7 +43,7 @@ const Home = () => {
         alert(res.data.error);
         return;
       }
-      // yaha par changes kiye hai maine
+      
       setnewEmp({ fullName: "", age: 0, dob: "", salary: 0, department: "" });
       setAllEmployees(res.data.data);
       alert("Data added Successfully");
@@ -149,7 +149,7 @@ const Home = () => {
         alert(data.error);
         return;
       }
-      //console.log(data);
+  
       setAllEmployees(data);
     } catch (error) {
       alert("Some error while filtering Employees");

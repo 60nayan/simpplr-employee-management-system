@@ -28,7 +28,7 @@ const Card = ({employee,setAllEmployees}) => {
       }
       setShowModal(false);
       setAllEmployees(data);
-      // yaha par bhi
+      
       setNewEmp({"fullName": "","age": null,"dob":"","salary": null,"department": ""});
       
       alert(" employee updated successfully ");
@@ -56,7 +56,7 @@ const Card = ({employee,setAllEmployees}) => {
       <div className="card-container">
         <h3>{employee?.fullName}</h3> 
           <p>Age: {employee?.age}</p>
-          {/* yaha par ? yeh nahi tha */}
+          
           <p>Date of Birth: {employee?.dob}</p>
          <p>Salary: {employee?.salary}</p>
          <p>Department: {employee?.department}</p>
@@ -71,7 +71,7 @@ const Card = ({employee,setAllEmployees}) => {
             <form className="add-form-card" onSubmit={updateEmployee} >
               <input  type="text" name="fullName" value={newEmp?.fullName} onChange={formInput}  placeholder="Enter updated Employee's name" className="add-input-card"/>
               <input  type="number" name="age" value={newEmp?.age} onChange={formInput}  placeholder="Enter updated Employee's age" className="add-input-card"/>
-              {/* yaha par changes karra hu */}
+              
               <input type="date" name="Date of Birth" value={newEmp?.dob} onChange={formInput} placeholder='Enter Updated DOB'></input>
               <input  type="number" name="salary" value={newEmp?.salary} onChange={formInput}  placeholder="Enter updated Employee's salary" className="add-input-card"/>
               <input  type="text" name="department" value={newEmp?.department} onChange={formInput}  placeholder="Enter updated Employee's dapartment" className="add-input-card"/>
