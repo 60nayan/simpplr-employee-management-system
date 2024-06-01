@@ -58,9 +58,9 @@ const Card = ({employee,setAllEmployees}) => {
           <p>Date of Birth: {employee.dob}</p>
          <p>Salary: {employee?.salary}</p>
          <p>Department: {employee?.department}</p>
-         {/* <h3>Name:Govind</h3>
+         {/* <h3>Name:Nayan Gupta</h3>
          <p>Age:22</p>
-         <p>Name:Govind</p>
+         <p>Name:Nayan Gupta</p>
          <p>Salary:450000</p>
          <p>Department:IT</p> */}
          <div className="card-button">

@@ -326,7 +326,7 @@ const Home = () => {
         </div>
       </div>
       <footer className="footer">
-        <p>&copy; Created by nayan gupta. All rights reserved.</p>
+        <p>&copy; Created by Nayan Gupta. All rights reserved.</p>
       </footer>
     </>
   );
