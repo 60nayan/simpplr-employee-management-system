@@ -1,0 +1,74 @@
+[
+  {
+    "fullName": "Nayan Gupta",
+    "age": "23",
+    "dob": "1983-04-23",
+    "salary": "46310",
+    "department": "IT",
+    "id": 99
+  },
+  {
+    "fullName": "Lishu Gupta",
+    "age": "63",
+    "dob": "1985-05-05",
+    "salary": "32638",
+    "department": "IT",
+    "id": 27
+  },
+  {
+    "fullName": "Amit Gupta",
+    "age": "40",
+    "dob": "1987-12-10",
+    "salary": "32484",
+    "department": "IT",
+    "id": 20
+  },
+  {
+    "fullName": "Mohit Banke",
+    "age": "63",
+    "dob": "2006-05-12",
+    "salary": "129377",
+    "department": "Admin",
+    "id": 83
+  },
+  {
+    "fullName": "Bhavika Dwivedi",
+    "age": "41",
+    "dob": "1962-10-19",
+    "salary": "96121",
+    "department": "IT",
+    "id": 55
+  },
+  {
+    "fullName": "Lokesh Malviya",
+    "age": "47",
+    "dob": "1984-01-14",
+    "salary": "114698",
+    "department": "IT",
+    "id": 38
+  },
+  {
+    "fullName": "Jaspreet Singh Khurana",
+    "age": "51",
+    "dob": "1979-12-25",
+    "salary": "196089",
+    "department": "HR",
+    "id": 42
+  },
+  {
+    "fullName": "Daksh Pahwa",
+    "age": "25",
+    "dob": "1985-06-08",
+    "salary": "51594",
+    "department": "Admin",
+    "id": 11
+  },
+  {
+    "fullName": "Priyansh",
+    "age": "42",
+    "dob": "1991-08-26",
+    "salary": "83453",
+    "department": "IT",
+    "id": 73
+  }
+]
